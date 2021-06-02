@@ -70,7 +70,7 @@ def main():
         )
 
 
-    st.write(similar_movies[['original_title', 'vote_average', 'vote_count', 'year']])
+    st.write(similar_movies[['title', 'vote_average', 'vote_count', 'year']])
 
 
 
